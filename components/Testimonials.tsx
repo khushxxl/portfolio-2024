@@ -30,9 +30,10 @@ const Testimonials = () => {
         </p>
         <div ref={ref}>
           <div className="text-white grid  place-items-center place-content-center grid-cols-1 lg:grid-cols-2 lg:gap-x-20 gap-x-0 gap-y-10 mt-20">
-            {workDone.map((data) => {
+            {workDone.map((data, i) => {
               return (
                 <motion.div
+                  key={i}
                   transition={{ delay: 1 }}
                   ref={ref}
                   animate={control}

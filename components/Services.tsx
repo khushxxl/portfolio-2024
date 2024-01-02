@@ -67,14 +67,14 @@ const Services = () => {
         {/* right div  */}
 
         <div className="mt-10 space-y-10 mb-10 flex flex-col items-center xl:items-end">
-          {businessData.map((data) => {
+          {businessData.map((data, i) => {
             return (
               <motion.div
                 ref={ref}
                 variants={profileVarient}
                 animate={control}
                 initial="hidden"
-                key={data.id}
+                key={i}
                 className="relative cursor-pointer transition-all duration-150 xl:hover:scale-105"
               >
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-300 to-purple-300 rounded-2xl blur "></div>

@@ -19,9 +19,9 @@ export function ClientReviewCoursel() {
       className="w-full max-w-sm"
     >
       <CarouselContent className="-ml-1">
-        {testimonials.map((data) => {
+        {testimonials.map((data, i) => {
           return (
-            <div className=" cursor-pointer max-w-md   max-h-max">
+            <div key={i} className=" cursor-pointer max-w-md   max-h-max">
               <div className="bg-[#1E1535] text-left relative space-y-4 max-w-sm min-w-max p-4 rounded-lg">
                 <div className="flex  items-center space-x-5 ">
                   <div>

@@ -32,9 +32,10 @@ const Review = () => {
         </p>
         <div>
           <div className="flex flex-col items-center lg:items-start mt-20 justify-center space-y-20 xl:space-y-0 xl:flex-row xl:space-x-14 text-white">
-            {testimonials.map((data) => {
+            {testimonials.map((data, i) => {
               return (
                 <motion.div
+                  key={i}
                   variants={profileVarient}
                   ref={ref}
                   animate={control}
