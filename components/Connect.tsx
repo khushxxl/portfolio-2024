@@ -22,6 +22,7 @@ const Connect = () => {
             href="https://www.linkedin.com/in/khushaal-choithramani-250285208/"
           >
             <Image
+              alt=""
               src={require("../images/Llogo.png")}
               height={100}
               width={100}
@@ -33,6 +34,7 @@ const Connect = () => {
             <Image
               src={require("../images/twitter.png")}
               height={100}
+              alt=""
               width={100}
             />
           </a>
@@ -40,6 +42,7 @@ const Connect = () => {
         <div className="hover:text-blue-400 cursor-pointer">
           <a target="_blank" href="https://github.com/khushxxl">
             <Image
+              alt=""
               src={require("../images/github.png")}
               height={100}
               width={100}
@@ -49,6 +52,7 @@ const Connect = () => {
         <div className="hover:text-blue-400 cursor-pointer">
           <a target="_blank" href="mailto:khushaal.choithramani@gmail.com">
             <Image
+              alt=""
               src={require("../images/gmail.png")}
               height={100}
               width={100}

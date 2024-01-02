@@ -1,4 +1,5 @@
 "use client";
+// react/no-unescaped-entities
 import { businessData } from ".././data.js";
 
 import Image from "next/image";

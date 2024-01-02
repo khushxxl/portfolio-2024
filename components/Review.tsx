@@ -43,7 +43,7 @@ const Review = () => {
                 >
                   <div className="absolute -inset-0.5  bg-gradient-to-r from-yellow-300 to-yellow-800 rounded-2xl blur "></div>
                   <div
-                    key={data.id}
+                    key={i}
                     className="bg-[#1E1535] text-left relative space-y-4 max-w-sm min-w-max p-4 rounded-lg"
                   >
                     <div className="flex  items-center space-x-5 ">
